@@ -1,11 +1,11 @@
 pSlider
 =======
 
-basic and useful jQuery sider plugin
+basic and useful jQuery slider plugin
 
 basit ve kullanışlı jquery slider eklentisi
 
-Turkish Documentation
+Documentation
 =======
 
 http://www.erbilen.net/lab/pSlider/
