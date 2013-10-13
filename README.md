@@ -1,7 +1,8 @@
 pSlider
 =======
 
-Basic And Quick jQuery Slider Plugin
+basic and useful jQuery sider plugin
+basit ve kullanışlı jquery slider eklentisi
 
 Turkish Documentation
 =======
