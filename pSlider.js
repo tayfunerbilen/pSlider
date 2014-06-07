@@ -283,12 +283,4 @@ jQuery.fn.pSlider = function(settings){
 
     }
 
-    // yeniden boyutlandırma
-    this.bind('resize', function(event, arg){
-        that.animated = false;
-        config.start = config.start + 1;
-        arg = jQuery.extend(config, arg);
-        $(this).pSlider(arg);
-    });
-
 };
