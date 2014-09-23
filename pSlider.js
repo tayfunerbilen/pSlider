@@ -11,6 +11,7 @@ jQuery.fn.pSlider = function(settings){
             next: null
         },
         visible: 1,
+        event: 'click',
         width: null,
         height: null,
         extra: 0,
@@ -89,7 +90,7 @@ jQuery.fn.pSlider = function(settings){
                 config.pagination.append('<a href="#"' + (i === 1 ? ' class="active"' : null) + '>' + i + '</a>');
             }
 
-            config.pagination.find('a').on('click', function(e){
+            config.pagination.find('a').on(config.event, function(e){
                 config.start = $(this).index();
                 that.animation('text');
                 e.preventDefault();
